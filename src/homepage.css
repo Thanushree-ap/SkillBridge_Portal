@@ -1,0 +1,98 @@
+/* Global Background */
+body {
+  background: linear-gradient(135deg, #c9f1ff, #d6ffe7);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVBAR - Glassmorphism */
+.glass-nav {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+}
+
+.navbar .nav-link {
+  color: #000 !important;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 12px;
+  transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #005eff !important;
+  transform: translateY(-2px);
+}
+
+.logo-img {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+}
+
+/* Custom toggler for mobile */
+.custom-toggler {
+  border: none;
+}
+
+/* HERO Section */
+.hero-section {
+  padding: 110px 20px;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #0b1220;
+}
+
+.hero-subtitle {
+  margin-top: 10px;
+  font-size: 18px;
+  opacity: 0.8;
+  color: #333;
+}
+
+/* TECHNOLOGY CAROUSEL */
+.carousel-item img {
+  height: 420px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #111;
+}
+
+/* ABOUT Section */
+.about-section {
+  background: #ffffff;
+  border-radius: 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.about-text {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #444;
+  margin-top: 10px;
+}
+
+/* FOOTER */
+.footer {
+  background: #0b1220;
+  color: white;
+  padding: 16px;
+  margin-top: 50px;
+}

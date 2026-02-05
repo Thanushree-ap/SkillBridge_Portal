@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz | SkillBridge</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+
+<div class="quiz-container">
+
+    <!-- SUBJECT MENU -->
+    <div id="quizMenu" class="menu-screen">
+        <h2>Select a Subject</h2>
+
+        <div class="subjects">
+            <button onclick="loadQuiz('css')">CSS</button>
+            <button onclick="loadQuiz('javascript')">JavaScript</button>
+            <button onclick="loadQuiz('python')">Python</button>
+            <button onclick="loadQuiz('c')">C Programming</button>
+            <button onclick="loadQuiz('dsa')">DSA</button>
+            <button onclick="loadQuiz('ada')">ADA</button>
+            <button onclick="loadQuiz('os')">Operating System</button>
+        </div>
+    </div>
+
+    <!-- QUIZ AREA -->
+    <div id="quizArea" class="hidden"></div>
+
+    <div id="resultScreen" class="hidden"></div>
+
+
+</div>
+
+<script src="quiz.js"></script>
+
+</body>
+</html>

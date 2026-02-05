@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SkillBridge Portal — Recommendations</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="results.css" />
+</head>
+
+<body onload="loadResultsPage()">
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <h1>SkillBridge — Recommendations</h1>
+        <div id="profileSummary" class="profilesmall"></div>
+      </div>
+
+      <div class="controls">
+        <button class="shell" onclick="goBackToForm()">Back</button>
+        <button class="shell" onclick="print()">Print</button>
+        <button class="shell" onclick="logoutUser()">Logout</button>
+      </div>
+    </div>
+
+    <div id="resultsContainer" class="results-grid"></div>
+  </div>
+
+  <!-- JS File -->
+  <script src="results.js"></script>
+  <!-- Your existing script -->
+  <script src="dashboard.js"></script>
+
+</body>
+</html>
