@@ -1,0 +1,152 @@
+[
+  {
+    "question": "What does CSS stand for?",
+    "options": ["Cascading Style Sheets", "Colorful Style System", "Creative Styling Syntax", "Computer Styled Sheets"],
+    "answer": "Cascading Style Sheets",
+    "explanation": "CSS stands for Cascading Style Sheets and is used to style HTML content."
+  },
+  {
+    "question": "Which property is used to change text color?",
+    "options": ["font-color", "color", "text-color", "foreground"],
+    "answer": "color",
+    "explanation": "The 'color' property sets the text color."
+  },
+  {
+    "question": "Which CSS property controls the text size?",
+    "options": ["font-size", "text-size", "size", "text-style"],
+    "answer": "font-size",
+    "explanation": "The 'font-size' property defines the size of the text."
+  },
+  {
+    "question": "Which property is used to change the background color?",
+    "options": ["bgcolor", "background-color", "color-background", "bg-color"],
+    "answer": "background-color",
+    "explanation": "'background-color' sets the background color of an element."
+  },
+  {
+    "question": "How do you select an element with id 'title'?",
+    "options": ["title", "#title", ".title", "*title"],
+    "answer": "#title",
+    "explanation": "ID selectors use # followed by the id name."
+  },
+  {
+    "question": "How do you select all elements with class 'card'?",
+    "options": ["card", "#card", ".card", "*card"],
+    "answer": ".card",
+    "explanation": "Class selectors begin with a dot (.)."
+  },
+  {
+    "question": "Which property is used to create space inside an element?",
+    "options": ["margin", "padding", "spacing", "gap"],
+    "answer": "padding",
+    "explanation": "Padding adds space inside the element between the content and border."
+  },
+  {
+    "question": "Which property adds space outside an element?",
+    "options": ["padding", "spacing", "margin", "border"],
+    "answer": "margin",
+    "explanation": "Margin adds space around the element's outside."
+  },
+  {
+    "question": "How do you make text bold in CSS?",
+    "options": ["font-weight: bold;", "text-bold: yes;", "style: bold;", "font-style: bold;"],
+    "answer": "font-weight: bold;",
+    "explanation": "The 'font-weight' property controls text thickness."
+  },
+  {
+    "question": "Which property is used to center text horizontally?",
+    "options": ["align: center;", "text-align: center;", "text-center: true;", "horizontal-align: middle;"],
+    "answer": "text-align: center;",
+    "explanation": "text-align centers inline content horizontally."
+  },
+  {
+    "question": "Which property controls the border of an element?",
+    "options": ["outline", "border", "frame", "box"],
+    "answer": "border",
+    "explanation": "'border' adds border width, style, and color."
+  },
+  {
+    "question": "How do you display elements one below another?",
+    "options": ["display: inline;", "display: block;", "display: flex;", "display: inline-block;"],
+    "answer": "display: block;",
+    "explanation": "Block elements naturally stack vertically."
+  },
+  {
+    "question": "Which property controls the space between letters?",
+    "options": ["line-height", "word-spacing", "letter-spacing", "character-space"],
+    "answer": "letter-spacing",
+    "explanation": "'letter-spacing' adjusts space between characters."
+  },
+  {
+    "question": "Which property sets the shadow of a box?",
+    "options": ["text-shadow", "box-shadow", "shadow-box", "element-shadow"],
+    "answer": "box-shadow",
+    "explanation": "box-shadow adds shadow around elements."
+  },
+  {
+    "question": "What is the default display value of a <div> element?",
+    "options": ["inline", "inline-block", "block", "flex"],
+    "answer": "block",
+    "explanation": "<div> is a block-level element by default."
+  },
+  {
+    "question": "Which CSS unit is relative to the browser's root font size?",
+    "options": ["px", "em", "rem", "%"],
+    "answer": "rem",
+    "explanation": "rem is relative to the root font-size, making scaling easier."
+  },
+  {
+    "question": "Which property controls the height of a line of text?",
+    "options": ["letter-height", "line-height", "text-height", "row-height"],
+    "answer": "line-height",
+    "explanation": "line-height controls spacing between lines of text."
+  },
+  {
+    "question": "Which property makes an element a flex container?",
+    "options": ["display: inline;", "display: flex;", "position: flex;", "flex: container;"],
+    "answer": "display: flex;",
+    "explanation": "display: flex activates the flexbox layout."
+  },
+  {
+    "question": "Which property is used to round the corners of a box?",
+    "options": ["corner-radius", "round-corner", "border-radius", "curve"],
+    "answer": "border-radius",
+    "explanation": "border-radius creates rounded edges."
+  },
+  {
+    "question": "Which CSS property positions an element relative to the browser window?",
+    "options": ["position: fixed;", "position: absolute;", "position: relative;", "position: static;"],
+    "answer": "position: fixed;",
+    "explanation": "Fixed position stays attached to the viewport."
+  },
+  {
+    "question": "What does z-index control?",
+    "options": ["zoom level", "color depth", "stacking order", "opacity"],
+    "answer": "stacking order",
+    "explanation": "z-index controls which elements appear above others."
+  },
+  {
+    "question": "Which property controls transparency?",
+    "options": ["visibility", "display", "opacity", "alpha"],
+    "answer": "opacity",
+    "explanation": "opacity ranges from 0 (transparent) to 1 (solid)."
+  },
+  {
+    "question": "Which CSS property changes the typeface?",
+    "options": ["font-family", "font-type", "text-font", "typeface"],
+    "answer": "font-family",
+    "explanation": "font-family sets the font of an element."
+  },
+  {
+    "question": "Which property aligns flex items along the main axis?",
+    "options": ["align-items", "justify-content", "flex-align", "content-position"],
+    "answer": "justify-content",
+    "explanation": "justify-content controls alignment along the flex container's main axis."
+  },
+  {
+    "question": "Which value of position removes an element from the document flow?",
+    "options": ["static", "relative", "absolute", "inherit"],
+    "answer": "absolute",
+    "explanation": "Absolute positioning removes the element from normal document flow."
+  }
+]

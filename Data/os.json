@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Which of the following is NOT an operating system?",
+    "options": ["Linux", "Windows", "MacOS", "Oracle"],
+    "answer": "Oracle",
+    "explanation": "Oracle is a database system, not an OS."
+  },
+  {
+    "question": "Which part of the OS interacts directly with hardware?",
+    "options": ["Shell", "Kernel", "API", "Driver"],
+    "answer": "Kernel",
+    "explanation": "The kernel manages hardware, memory, processes, and resources."
+  },
+  {
+    "question": "Which scheduling algorithm executes jobs in the order they arrive?",
+    "options": ["Round Robin", "FCFS", "SJF", "Priority"],
+    "answer": "FCFS",
+    "explanation": "First Come First Serve runs jobs based on arrival time."
+  },
+  {
+    "question": "Which of the following is a non-preemptive scheduling algorithm?",
+    "options": ["Round Robin", "SJF (preemptive)", "FCFS", "Priority (preemptive)"],
+    "answer": "FCFS",
+    "explanation": "Once a process starts in FCFS, it cannot be interrupted."
+  },
+  {
+    "question": "What is a process?",
+    "options": ["A program in execution", "A collection of instructions", "A file", "A command"],
+    "answer": "A program in execution",
+    "explanation": "A process is a running instance of a program."
+  },
+  {
+    "question": "Which of the following is used for inter-process communication?",
+    "options": ["Pipe", "Keyboard", "Monitor", "Disk"],
+    "answer": "Pipe",
+    "explanation": "Pipes allow processes to communicate."
+  },
+  {
+    "question": "What is a deadlock?",
+    "options": ["Processes run quickly", "Processes waiting forever", "Memory overflow", "A type of scheduling"],
+    "answer": "Processes waiting forever",
+    "explanation": "Deadlock occurs when processes wait for each other indefinitely."
+  },
+  {
+    "question": "Which of the following is NOT a condition for deadlock?",
+    "options": ["Mutual Exclusion", "Hold and Wait", "Circular Wait", "Priority Scheduling"],
+    "answer": "Priority Scheduling",
+    "explanation": "Priority scheduling is unrelated; the other three are deadlock conditions."
+  },
+  {
+    "question": "What is thrashing in OS?",
+    "options": ["High CPU usage", "High I/O speed", "Too much swapping", "Process starvation"],
+    "answer": "Too much swapping",
+    "explanation": "Thrashing occurs when the system spends more time swapping than executing."
+  },
+  {
+    "question": "Which memory management technique divides memory into fixed blocks?",
+    "options": ["Paging", "Segmentation", "Swapping", "Contiguous Allocation"],
+    "answer": "Paging",
+    "explanation": "Paging divides memory into fixed-size pages."
+  },
+  {
+    "question": "Which memory management uses variable-sized blocks?",
+    "options": ["Paging", "Segmentation", "FIFO", "LRU"],
+    "answer": "Segmentation",
+    "explanation": "Segmentation divides memory based on logical components of a program."
+  },
+  {
+    "question": "What is the purpose of a page table?",
+    "options": ["Store processes", "Map logical to physical addresses", "Store files", "Assign CPU time"],
+    "answer": "Map logical to physical addresses",
+    "explanation": "Page table keeps track of where pages are stored in memory."
+  },
+  {
+    "question": "What does CPU scheduling improve?",
+    "options": ["Memory usage", "CPU utilization", "Disk performance", "File size"],
+    "answer": "CPU utilization",
+    "explanation": "Scheduling ensures CPU is used efficiently with fewer idle cycles."
+  },
+  {
+    "question": "Which of the following is a preemptive algorithm?",
+    "options": ["FCFS", "SJF non-preemptive", "Round Robin", "None"],
+    "answer": "Round Robin",
+    "explanation": "Round Robin interrupts processes after time quantum expires."
+  },
+  {
+    "question": "What is context switching?",
+    "options": ["Switching off the CPU", "Changing memory units", "Saving and restoring process states", "Formatting the system"],
+    "answer": "Saving and restoring process states",
+    "explanation": "During context switches, OS stores and loads PCB (Process Control Block)."
+  },
+  {
+    "question": "Which disk scheduling algorithm gives the best throughput?",
+    "options": ["FCFS", "SSTF", "SCAN", "LOOK"],
+    "answer": "SCAN",
+    "explanation": "SCAN reduces movement by sweeping across disk tracks."
+  },
+  {
+    "question": "Which of the following is used to prevent deadlock?",
+    "options": ["Banker's Algorithm", "Round Robin", "Segmentation", "SSTF"],
+    "answer": "Banker's Algorithm",
+    "explanation": "Banker's algorithm avoids unsafe allocations."
+  },
+  {
+    "question": "Which is NOT a type of operating system?",
+    "options": ["Batch OS", "Time-Sharing OS", "Network OS", "Compiler OS"],
+    "answer": "Compiler OS",
+    "explanation": "Compilers are software, not OS types."
+  },
+  {
+    "question": "Which file system is used in Linux?",
+    "options": ["NTFS", "FAT32", "EXT4", "HFS"],
+    "answer": "EXT4",
+    "explanation": "EXT4 is the most common Linux filesystem."
+  },
+  {
+    "question": "Which command is used to view running processes in Linux?",
+    "options": ["run", "ps", "top", "task"],
+    "answer": "ps",
+    "explanation": "ps shows currently running processes."
+  },
+  {
+    "question": "Which replacement algorithm removes the least recently used page?",
+    "options": ["FIFO", "LRU", "OPT", "MRU"],
+    "answer": "LRU",
+    "explanation": "LRU removes the page that was used longest ago."
+  },
+  {
+    "question": "What is virtual memory?",
+    "options": ["Extra RAM", "Memory on CPU", "Memory on disk used as RAM", "Cache memory"],
+    "answer": "Memory on disk used as RAM",
+    "explanation": "Virtual memory extends RAM using secondary storage."
+  },
+  {
+    "question": "Which OS is an example of real-time OS?",
+    "options": ["Android", "Windows", "VxWorks", "Ubuntu"],
+    "answer": "VxWorks",
+    "explanation": "Real-time OS guarantees response time; VxWorks is one such OS."
+  },
+  {
+    "question": "Swapping is used to:",
+    "options": ["Move data to CPU", "Move process between memory and disk", "Sort data", "Manage permissions"],
+    "answer": "Move process between memory and disk",
+    "explanation": "Swapping relocates entire processes to free memory."
+  },
+  {
+    "question": "Which component manages file operations?",
+    "options": ["Kernel", "File System", "Debugger", "Compiler"],
+    "answer": "File System",
+    "explanation": "A file system organizes and manages files on disk."
+  }
+]

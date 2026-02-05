@@ -1,0 +1,157 @@
+[
+  {
+    "question": "Which tag defines the main content section of a webpage?",
+    "options": ["&lt;main&gt;", "&lt;section&gt;", "&lt;content&gt;", "&lt;body&gt;"],
+    "answer": "&lt;main&gt;",
+    "explanation": "&lt;main&gt; represents the dominant content of the page."
+  },
+  {
+    "question": "Which HTML tag creates a line break?",
+    "options": ["&lt;br&gt;", "&lt;lb&gt;", "&lt;break&gt;", "&lt;line&gt;"],
+    "answer": "&lt;br&gt;",
+    "explanation": "The &lt;br&gt; tag inserts a single line break."
+  },
+  {
+    "question": "Which tag is used to insert an image?",
+    "options": ["&lt;img&gt;", "&lt;image&gt;", "&lt;pic&gt;", "&lt;src&gt;"],
+    "answer": "&lt;img&gt;",
+    "explanation": "&lt;img&gt; is the correct tag for displaying images."
+  },
+  {
+    "question": "Which HTML element defines the title of a document?",
+    "options": ["&lt;title&gt;", "&lt;head&gt;", "&lt;meta&gt;", "&lt;header&gt;"],
+    "answer": "&lt;title&gt;",
+    "explanation": "The &lt;title&gt; tag defines the text shown in the browser tab."
+  },
+  {
+    "question": "Which tag is used to create a table row?",
+    "options": ["&lt;tr&gt;", "&lt;td&gt;", "&lt;th&gt;", "&lt;row&gt;"],
+    "answer": "&lt;tr&gt;",
+    "explanation": "&lt;tr&gt; defines a row inside a table."
+  },
+  {
+    "question": "Which attribute is used to provide alternate text for an image?",
+    "options": ["alt", "title", "text", "desc"],
+    "answer": "alt",
+    "explanation": "The alt attribute improves accessibility and SEO."
+  },
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "HyperText Markup Language",
+      "HighText Machine Language",
+      "Hyperlink and Text Markup Language",
+      "Home Tool Markup Language"
+    ],
+    "answer": "HyperText Markup Language",
+    "explanation": "HTML is the standard language for building webpages."
+  },
+  {
+    "question": "Which tag is used for the largest heading?",
+    "options": ["&lt;h1&gt;", "&lt;h6&gt;", "&lt;header&gt;", "&lt;h0&gt;"],
+    "answer": "&lt;h1&gt;",
+    "explanation": "&lt;h1&gt; has the highest heading level."
+  },
+  {
+    "question": "Which tag defines an unordered list?",
+    "options": ["&lt;ul&gt;", "&lt;ol&gt;", "&lt;li&gt;", "&lt;list&gt;"],
+    "answer": "&lt;ul&gt;",
+    "explanation": "&lt;ul&gt; is used for bullet point lists."
+  },
+  {
+    "question": "Which tag defines a hyperlink?",
+    "options": ["&lt;a&gt;", "&lt;link&gt;", "&lt;href&gt;", "&lt;url&gt;"],
+    "answer": "&lt;a&gt;",
+    "explanation": "Anchor tag &lt;a&gt; creates hyperlinks."
+  },
+  {
+    "question": "Which attribute is used to open a link in a new tab?",
+    "options": ["target=\"_blank\"", "newtab=\"true\"", "open=\"new\"", "tab=\"new\""],
+    "answer": "target=\"_blank\"",
+    "explanation": "target=\"_blank\" opens hyperlink in a new browser tab."
+  },
+  {
+    "question": "Which tag defines a form input field?",
+    "options": ["&lt;input&gt;", "&lt;enter&gt;", "&lt;field&gt;", "&lt;textbox&gt;"],
+    "answer": "&lt;input&gt;",
+    "explanation": "The &lt;input&gt; tag is used for form fields."
+  },
+  {
+    "question": "Which HTML tag is used to create a dropdown?",
+    "options": ["&lt;select&gt;", "&lt;option&gt;", "&lt;dropdown&gt;", "&lt;list&gt;"],
+    "answer": "&lt;select&gt;",
+    "explanation": "&lt;select&gt; contains &lt;option&gt; items to create dropdowns."
+  },
+  {
+    "question": "Which tag embeds a video on a webpage?",
+    "options": ["&lt;video&gt;", "&lt;media&gt;", "&lt;movie&gt;", "&lt;vid&gt;"],
+    "answer": "&lt;video&gt;",
+    "explanation": "The &lt;video&gt; element embeds video content."
+  },
+  {
+    "question": "Which tag is used to display preformatted text?",
+    "options": ["&lt;pre&gt;", "&lt;code&gt;", "&lt;text&gt;", "&lt;format&gt;"],
+    "answer": "&lt;pre&gt;",
+    "explanation": "&lt;pre&gt; preserves whitespace and formatting."
+  },
+  {
+    "question": "Which element contains metadata for the webpage?",
+    "options": ["&lt;head&gt;", "&lt;meta&gt;", "&lt;header&gt;", "&lt;info&gt;"],
+    "answer": "&lt;head&gt;",
+    "explanation": "The &lt;head&gt; includes meta tags, title, and links."
+  },
+  {
+    "question": "Which tag is used for bold text?",
+    "options": ["&lt;b&gt;", "&lt;strong&gt;", "&lt;bold&gt;", "&lt;em&gt;"],
+    "answer": "&lt;b&gt;",
+    "explanation": "&lt;b&gt; visually bolds text (non-semantic)."
+  },
+  {
+    "question": "Which tag creates a table?",
+    "options": ["&lt;table&gt;", "&lt;tab&gt;", "&lt;grid&gt;", "&lt;sheet&gt;"],
+    "answer": "&lt;table&gt;",
+    "explanation": "Tables begin with the &lt;table&gt; tag."
+  },
+  {
+    "question": "Which tag represents emphasized text?",
+    "options": ["&lt;em&gt;", "&lt;i&gt;", "&lt;italic&gt;", "&lt;strong&gt;"],
+    "answer": "&lt;em&gt;",
+    "explanation": "&lt;em&gt; is semantic emphasis."
+  },
+  {
+    "question": "Which HTML tag defines a navigation section?",
+    "options": ["&lt;nav&gt;", "&lt;navigate&gt;", "&lt;menu&gt;", "&lt;dir&gt;"],
+    "answer": "&lt;nav&gt;",
+    "explanation": "&lt;nav&gt; defines navigation links."
+  },
+  {
+    "question": "Which tag displays text as inline code?",
+    "options": ["&lt;code&gt;", "&lt;pre&gt;", "&lt;script&gt;", "&lt;inline&gt;"],
+    "answer": "&lt;code&gt;",
+    "explanation": "&lt;code&gt; represents code snippets."
+  },
+  {
+    "question": "Which tag groups related form controls?",
+    "options": ["&lt;fieldset&gt;", "&lt;group&gt;", "&lt;formset&gt;", "&lt;control&gt;"],
+    "answer": "&lt;fieldset&gt;",
+    "explanation": "&lt;fieldset&gt; groups form elements with a border."
+  },
+  {
+    "question": "Which tag represents a footer section?",
+    "options": ["&lt;footer&gt;", "&lt;bottom&gt;", "&lt;end&gt;", "&lt;foot&gt;"],
+    "answer": "&lt;footer&gt;",
+    "explanation": "&lt;footer&gt; defines the bottom section of a webpage."
+  },
+  {
+    "question": "Which HTML tag sets the background color of a page?",
+    "options": ["style", "bgcolor", "background", "color"],
+    "answer": "style",
+    "explanation": "Inline CSS style attribute is used for background colors."
+  },
+  {
+    "question": "Which tag is used to insert audio?",
+    "options": ["&lt;audio&gt;", "&lt;sound&gt;", "&lt;music&gt;", "&lt;mp3&gt;"],
+    "answer": "&lt;audio&gt;",
+    "explanation": "&lt;audio&gt; embeds sound files."
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Which symbol is used to end a statement in C?",
+    "options": ["Colon", "Comma", "Semicolon", "Period"],
+    "answer": "Semicolon",
+    "explanation": "Every C statement ends with a semicolon (;)."
+  },
+  {
+    "question": "Which header file is required for printf()?",
+    "options": ["stdlib.h", "stdio.h", "string.h", "math.h"],
+    "answer": "stdio.h",
+    "explanation": "printf() is defined in stdio.h."
+  },
+  {
+    "question": "What is the correct format specifier for an integer?",
+    "options": ["%c", "%f", "%d", "%s"],
+    "answer": "%d",
+    "explanation": "%d is used to print integer values."
+  },
+  {
+    "question": "Which data type stores a single character?",
+    "options": ["char", "int", "float", "double"],
+    "answer": "char",
+    "explanation": "char stores one character (1 byte)."
+  },
+  {
+    "question": "Which operator is used to access the value at an address?",
+    "options": ["&", "*", "#", "%"],
+    "answer": "*",
+    "explanation": "* is the dereference operator in pointers."
+  },
+  {
+    "question": "Which operator returns the memory address of a variable?",
+    "options": ["@", "&", "#", "*"],
+    "answer": "&",
+    "explanation": "& gives the memory address of a variable."
+  },
+  {
+    "question": "What is the size of an int in most systems?",
+    "options": ["1 byte", "2 bytes", "4 bytes", "8 bytes"],
+    "answer": "4 bytes",
+    "explanation": "Most modern compilers use 4 bytes for int."
+  },
+  {
+    "question": "Which loop guarantees at least one execution?",
+    "options": ["for loop", "while loop", "do…while loop", "foreach loop"],
+    "answer": "do…while loop",
+    "explanation": "do…while runs once before checking the condition."
+  },
+  {
+    "question": "Which function compares two strings?",
+    "options": ["strcopy()", "strcmp()", "strcat()", "strlength()"],
+    "answer": "strcmp()",
+    "explanation": "strcmp() checks if strings are equal."
+  },
+  {
+    "question": "Which function dynamically allocates memory?",
+    "options": ["malloc()", "alloc()", "memory()", "new()"],
+    "answer": "malloc()",
+    "explanation": "malloc() allocates memory from the heap."
+  },
+  {
+    "question": "What is the default value of an uninitialized local variable?",
+    "options": ["0", "NULL", "Garbage value", "Undefined"],
+    "answer": "Garbage value",
+    "explanation": "Local variables contain garbage until assigned."
+  },
+  {
+    "question": "Which keyword is used to define constants?",
+    "options": ["let", "constant", "const", "final"],
+    "answer": "const",
+    "explanation": "const creates read-only variables."
+  },
+  {
+    "question": "What is an array in C?",
+    "options": ["A pointer", "A structure", "A collection of similar items", "A function"],
+    "answer": "A collection of similar items",
+    "explanation": "Arrays store elements of the same type."
+  },
+  {
+    "question": "Which format specifier is used for float?",
+    "options": ["%f", "%d", "%lf", "%c"],
+    "answer": "%f",
+    "explanation": "float values use %f."
+  },
+  {
+    "question": "Which keyword is used to exit from a loop?",
+    "options": ["skip", "leave", "break", "return"],
+    "answer": "break",
+    "explanation": "break exits the nearest loop."
+  },
+  {
+    "question": "Which function finds the length of a string?",
+    "options": ["len()", "strlength()", "strlen()", "count()"],
+    "answer": "strlen()",
+    "explanation": "strlen() returns the number of characters."
+  },
+  {
+    "question": "What is the index of the first element in an array?",
+    "options": ["0", "1", "-1", "Depends on compiler"],
+    "answer": "0",
+    "explanation": "C arrays are zero-indexed."
+  },
+  {
+    "question": "Which loop is best when you know the number of iterations?",
+    "options": ["while loop", "for loop", "do…while loop", "goto"],
+    "answer": "for loop",
+    "explanation": "for loop is commonly used when iteration count is known."
+  },
+  {
+    "question": "Which statement is used to return a value from a function?",
+    "options": ["send", "return", "break", "exit"],
+    "answer": "return",
+    "explanation": "return sends output back to the caller."
+  },
+  {
+    "question": "Which of the following is not a data type?",
+    "options": ["int", "float", "real", "char"],
+    "answer": "real",
+    "explanation": "real is not valid in C."
+  },
+  {
+    "question": "What is a pointer?",
+    "options": ["A variable that stores data", "A keyword", "A variable that stores an address", "A reserved memory"],
+    "answer": "A variable that stores an address",
+    "explanation": "Pointers hold memory addresses."
+  },
+  {
+    "question": "Which keyword is used to include header files?",
+    "options": ["include", "#header", "#use", "#include"],
+    "answer": "#include",
+    "explanation": "#include imports header files."
+  },
+  {
+    "question": "What is recursion?",
+    "options": ["Repeating loops", "A function calling itself", "Memory allocation", "Pointer arithmetic"],
+    "answer": "A function calling itself",
+    "explanation": "Recursion occurs when the function invokes itself."
+  },
+  {
+    "question": "Which operator is used for equality comparison?",
+    "options": ["=", "==", "===", "!="],
+    "answer": "==",
+    "explanation": "== checks if two values are equal."
+  },
+  {
+    "question": "What is the output of sizeof(char)?",
+    "options": ["2 bytes", "4 bytes", "1 byte", "8 bytes"],
+    "answer": "1 byte",
+    "explanation": "char occupies exactly 1 byte in C."
+  }
+]

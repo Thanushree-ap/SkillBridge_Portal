@@ -1,0 +1,152 @@
+[
+  {
+    "question": "What is the main goal of algorithm analysis?",
+    "options": ["To count lines of code", "To evaluate memory and time efficiency", "To remove errors", "To test code"],
+    "answer": "To evaluate memory and time efficiency",
+    "explanation": "Algorithm analysis helps compare efficiency using time and space complexity."
+  },
+  {
+    "question": "What is the time complexity of Binary Search?",
+    "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+    "answer": "O(log n)",
+    "explanation": "Binary Search divides the array in half each step."
+  },
+  {
+    "question": "Which algorithm design technique divides a problem into subproblems?",
+    "options": ["Dynamic Programming", "Brute Force", "Divide and Conquer", "Backtracking"],
+    "answer": "Divide and Conquer",
+    "explanation": "Divide & Conquer breaks a problem, solves parts, and combines solutions."
+  },
+  {
+    "question": "Which of the following uses Optimal Substructure?",
+    "options": ["Backtracking", "Dynamic Programming", "Brute Force", "Greedy"],
+    "answer": "Dynamic Programming",
+    "explanation": "DP solves subproblems and stores results to avoid recomputation."
+  },
+  {
+    "question": "Which algorithm solves the Knapsack (0/1) problem efficiently?",
+    "options": ["Greedy", "Dynamic Programming", "DFS", "Binary Search"],
+    "answer": "Dynamic Programming",
+    "explanation": "Greedy doesn't always work; DP gives optimal solution for 0/1 knapsack."
+  },
+  {
+    "question": "Which of these uses Backtracking?",
+    "options": ["Binary Search", "Tower of Hanoi", "N-Queens Problem", "Merge Sort"],
+    "answer": "N-Queens Problem",
+    "explanation": "Backtracking tries possibilities and backtracks on failure."
+  },
+  {
+    "question": "What is the worst-case time complexity of Quick Sort?",
+    "options": ["O(n)", "O(log n)", "O(n log n)", "O(n^2)"],
+    "answer": "O(n^2)",
+    "explanation": "Worst case occurs when pivot selection is poor (already sorted array)."
+  },
+  {
+    "question": "Which sorting algorithm guarantees O(n log n) in all cases?",
+    "options": ["Quick Sort", "Merge Sort", "Bubble Sort", "Insertion Sort"],
+    "answer": "Merge Sort",
+    "explanation": "Merge Sort uses divide & conquer and always takes O(n log n)."
+  },
+  {
+    "question": "Which algorithm finds the shortest path in a weighted graph?",
+    "options": ["Greedy Approach", "Dijkstra’s Algorithm", "DFS", "Binary Search"],
+    "answer": "Dijkstra’s Algorithm",
+    "explanation": "Dijkstra is used for non-negative weighted graphs."
+  },
+  {
+    "question": "Which technique does Greedy Algorithm use?",
+    "options": ["Choose best local option", "Choose random option", "Choose worst option", "Try all possible options"],
+    "answer": "Choose best local option",
+    "explanation": "Greedy selects best immediate choice hoping for global optimum."
+  },
+  {
+    "question": "What is the time complexity of Merge Sort?",
+    "options": ["O(n)", "O(log n)", "O(n log n)", "O(n^2)"],
+    "answer": "O(n log n)",
+    "explanation": "Merge Sort always divides and merges, giving n log n."
+  },
+  {
+    "question": "Which problem cannot be solved using dynamic programming?",
+    "options": ["Fibonacci", "Knapsack", "Longest Common Subsequence", "Binary Search"],
+    "answer": "Binary Search",
+    "explanation": "Binary search is not overlapping subproblems; it's a divide & conquer problem."
+  },
+  {
+    "question": "Which algorithm uses a priority queue?",
+    "options": ["DFS", "Dijkstra's Algorithm", "Bubble Sort", "Backtracking"],
+    "answer": "Dijkstra's Algorithm",
+    "explanation": "Priority queue helps pick the minimum distance vertex."
+  },
+  {
+    "question": "What does Big O notation represent?",
+    "options": ["Best case", "Average case", "Worst case", "Exact runtime"],
+    "answer": "Worst case",
+    "explanation": "Big O expresses upper bound on runtime."
+  },
+  {
+    "question": "Which algorithm is used to solve optimization problems?",
+    "options": ["Greedy", "DP", "Backtracking", "All of these"],
+    "answer": "All of these",
+    "explanation": "Different techniques solve different optimization problems."
+  },
+  {
+    "question": "Which is the best-case complexity of Quick Sort?",
+    "options": ["O(n)", "O(log n)", "O(n log n)", "O(n^2)"],
+    "answer": "O(n log n)",
+    "explanation": "Quick Sort performs best when pivot divides array equally."
+  },
+  {
+    "question": "What does the term 'Pruning' refer to in Backtracking?",
+    "options": ["Trying all solutions", "Ignoring useless paths", "Sorting options", "Merging solutions"],
+    "answer": "Ignoring useless paths",
+    "explanation": "Pruning reduces unnecessary exploration."
+  },
+  {
+    "question": "Which algorithm solves the Traveling Salesman Problem exactly?",
+    "options": ["Greedy", "Dynamic Programming", "Brute Force", "Backtracking"],
+    "answer": "Brute Force",
+    "explanation": "Brute force checks all permutations for exact solution."
+  },
+  {
+    "question": "Which algorithm solves TSP efficiently (approximation)?",
+    "options": ["Greedy Approach", "Backtracking", "Binary Search", "Bubble Sort"],
+    "answer": "Greedy Approach",
+    "explanation": "Greedy approximates TSP by choosing closest next city."
+  },
+  {
+    "question": "Which uses memoization?",
+    "options": ["Greedy", "Backtracking", "Dynamic Programming", "Binary Search"],
+    "answer": "Dynamic Programming",
+    "explanation": "Memoization stores results of subproblems."
+  },
+  {
+    "question": "What is the complexity of the Fibonacci DP solution?",
+    "options": ["O(2^n)", "O(n)", "O(log n)", "O(n^2)"],
+    "answer": "O(n)",
+    "explanation": "DP solves Fibonacci using linear iteration."
+  },
+  {
+    "question": "Which algorithm finds MST?",
+    "options": ["Kruskal", "Prim", "Both", "Dijkstra"],
+    "answer": "Both",
+    "explanation": "Both Kruskal & Prim construct minimum spanning trees."
+  },
+  {
+    "question": "Which algorithm is NOT Greedy?",
+    "options": ["Dijkstra", "Prim", "Kruskal", "Merge Sort"],
+    "answer": "Merge Sort",
+    "explanation": "Merge sort uses divide & conquer, not greedy."
+  },
+  {
+    "question": "What is the complexity of linear search?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "answer": "O(n)",
+    "explanation": "Worst case checks all elements once."
+  },
+  {
+    "question": "Which technique reduces repeated computations?",
+    "options": ["Iteration", "Memoization", "Greedy", "Branching"],
+    "answer": "Memoization",
+    "explanation": "Memoization stores and reuses previously solved subproblems."
+  }
+]

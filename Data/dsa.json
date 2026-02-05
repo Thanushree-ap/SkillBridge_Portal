@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Which data structure follows FIFO order?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "answer": "Queue",
+    "explanation": "Queue works on First In First Out."
+  },
+  {
+    "question": "Which data structure follows LIFO order?",
+    "options": ["Queue", "Array", "Stack", "Linked List"],
+    "answer": "Stack",
+    "explanation": "Stack works on Last In First Out."
+  },
+  {
+    "question": "Which traversal of a binary tree gives nodes in sorted order?",
+    "options": ["Preorder", "Postorder", "Inorder", "Level order"],
+    "answer": "Inorder",
+    "explanation": "Inorder traversal of BST produces sorted output."
+  },
+  {
+    "question": "Which algorithm is used for finding the shortest path in a weighted graph?",
+    "options": ["DFS", "Dijkstra's Algorithm", "BFS", "Kruskal's Algorithm"],
+    "answer": "Dijkstra's Algorithm",
+    "explanation": "Dijkstra works for graphs with non-negative weights."
+  },
+  {
+    "question": "Which sorting algorithm is the fastest in average case?",
+    "options": ["Bubble Sort", "Insertion Sort", "Quick Sort", "Selection Sort"],
+    "answer": "Quick Sort",
+    "explanation": "Quick Sort has average complexity O(n log n)."
+  },
+  {
+    "question": "Which data structure uses pointers?",
+    "options": ["Array", "Linked List", "Matrix", "Queue"],
+    "answer": "Linked List",
+    "explanation": "Linked lists use pointers to link nodes."
+  },
+  {
+    "question": "What is the time complexity of binary search?",
+    "options": ["O(n)", "O(n log n)", "O(log n)", "O(1)"],
+    "answer": "O(log n)",
+    "explanation": "Binary search reduces the search space by half each time."
+  },
+  {
+    "question": "Which of the following is not a stable sorting algorithm?",
+    "options": ["Merge Sort", "Quick Sort", "Bubble Sort", "Insertion Sort"],
+    "answer": "Quick Sort",
+    "explanation": "Quick Sort is not stable because equal elements may swap positions."
+  },
+  {
+    "question": "Which data structure is used in DFS?",
+    "options": ["Queue", "Stack", "Array", "Heap"],
+    "answer": "Stack",
+    "explanation": "DFS uses stack (implicit or explicit)."
+  },
+  {
+    "question": "Which data structure is used in BFS?",
+    "options": ["Stack", "Queue", "Tree", "Graph"],
+    "answer": "Queue",
+    "explanation": "BFS uses a queue to explore nodes level-wise."
+  },
+  {
+    "question": "Which heap is used in priority queues?",
+    "options": ["Binary Heap", "Fibonacci Heap", "Binomial Heap", "All of these"],
+    "answer": "All of these",
+    "explanation": "Priority queues can be implemented using any of these heaps."
+  },
+  {
+    "question": "Which search algorithm explores all neighbors first?",
+    "options": ["DFS", "Binary Search", "BFS", "Jump Search"],
+    "answer": "BFS",
+    "explanation": "BFS explores all nodes at the present level first."
+  },
+  {
+    "question": "Which algorithm is used to detect cycles in a graph?",
+    "options": ["Kruskal", "Prim", "DFS", "Binary Search"],
+    "answer": "DFS",
+    "explanation": "DFS can detect cycles in directed and undirected graphs."
+  },
+  {
+    "question": "Which of the following is a self-balancing binary tree?",
+    "options": ["AVL Tree", "Binary Tree", "Heap", "Graph"],
+    "answer": "AVL Tree",
+    "explanation": "AVL tree maintains balance using height differences."
+  },
+  {
+    "question": "What is the worst-case time complexity of bubble sort?",
+    "options": ["O(n)", "O(log n)", "O(n log n)", "O(n^2)"],
+    "answer": "O(n^2)",
+    "explanation": "Bubble sort compares every pair in nested loops."
+  },
+  {
+    "question": "What is the space complexity of Merge Sort?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n^2)"],
+    "answer": "O(n)",
+    "explanation": "Merge Sort requires additional memory for merging."
+  },
+  {
+    "question": "What is the maximum number of children a binary tree node can have?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "2",
+    "explanation": "A binary tree node has at most two children."
+  },
+  {
+    "question": "Which of the following data structures is linear?",
+    "options": ["Tree", "Graph", "Queue", "Heap"],
+    "answer": "Queue",
+    "explanation": "Queue is a linear data structure."
+  },
+  {
+    "question": "Which operation is fastest in an array?",
+    "options": ["Search", "Insertion", "Deletion", "Access"],
+    "answer": "Access",
+    "explanation": "Array access is O(1)."
+  },
+  {
+    "question": "Which algorithm is used to find Minimum Spanning Tree?",
+    "options": ["Kruskal", "Prim", "Both", "Dijkstra"],
+    "answer": "Both",
+    "explanation": "Both Kruskal & Prim produce MST."
+  },
+  {
+    "question": "Which data structure is best for implementing recursion?",
+    "options": ["Tree", "Queue", "Stack", "Heap"],
+    "answer": "Stack",
+    "explanation": "Function calls use stack memory."
+  },
+  {
+    "question": "What is the height of a binary tree with 1 node?",
+    "options": ["-1", "0", "1", "2"],
+    "answer": "0",
+    "explanation": "Height is level count - 1, so single node = 0."
+  },
+  {
+    "question": "Which sorting algorithm uses divide and conquer?",
+    "options": ["Bubble Sort", "Selection Sort", "Quick Sort", "Counting Sort"],
+    "answer": "Quick Sort",
+    "explanation": "Quick Sort divides the array and sorts recursively."
+  },
+  {
+    "question": "Which structure is used in function call management?",
+    "options": ["Heap", "Stack", "Queue", "Graph"],
+    "answer": "Stack",
+    "explanation": "Stack stores return addresses and variables."
+  },
+  {
+    "question": "Which algorithm is used to traverse a binary tree level by level?",
+    "options": ["DFS", "Preorder", "Level Order", "Postorder"],
+    "answer": "Level Order",
+    "explanation": "Level order uses BFS to visit levels."
+  }
+]

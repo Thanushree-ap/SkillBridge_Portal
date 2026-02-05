@@ -1,0 +1,152 @@
+[
+  {
+    "question": "What is JavaScript primarily used for?",
+    "options": ["Styling web pages", "Structuring content", "Making web pages interactive", "Creating databases"],
+    "answer": "Making web pages interactive",
+    "explanation": "JavaScript adds interactivity such as animations, events, and dynamic content."
+  },
+  {
+    "question": "Which keyword declares a variable that can be reassigned?",
+    "options": ["const", "var", "static", "define"],
+    "answer": "var",
+    "explanation": "var allows redeclaration and reassignment."
+  },
+  {
+    "question": "Which keyword declares a block-scoped variable?",
+    "options": ["var", "let", "define", "constant"],
+    "answer": "let",
+    "explanation": "let is block-scoped and allows reassignment."
+  },
+  {
+    "question": "Which method outputs a message to the browser console?",
+    "options": ["console.print()", "alert()", "console.log()", "print()"],
+    "answer": "console.log()",
+    "explanation": "console.log() prints messages to the browser console."
+  },
+  {
+    "question": "What is the result of '5' + 2?",
+    "options": ["7", "3", "52", "Error"],
+    "answer": "52",
+    "explanation": "The + operator concatenates strings."
+  },
+  {
+    "question": "What does === check?",
+    "options": ["Value only", "Type only", "Value and type", "None"],
+    "answer": "Value and type",
+    "explanation": "=== is strict equality checking."
+  },
+  {
+    "question": "How do you write a function in JavaScript?",
+    "options": ["function myFunc()", "func myFunc()", "create function myFunc()", "method myFunc()"],
+    "answer": "function myFunc()",
+    "explanation": "JavaScript functions are declared using the function keyword."
+  },
+  {
+    "question": "Which symbol is used for comments in JavaScript?",
+    "options": ["<!-- -->", "**", "//", "#"],
+    "answer": "//",
+    "explanation": "// is for single-line comments."
+  },
+  {
+    "question": "What does DOM stand for?",
+    "options": ["Document Object Model", "Data Object Management", "Desktop Oriented Mode", "Digital Ordinance Model"],
+    "answer": "Document Object Model",
+    "explanation": "DOM represents the structure of a webpage."
+  },
+  {
+    "question": "How do you write an array in JS?",
+    "options": ["{1,2,3}", "(1,2,3)", "[1,2,3]", "<1,2,3>"],
+    "answer": "[1,2,3]",
+    "explanation": "Arrays in JavaScript are defined using square brackets."
+  },
+  {
+    "question": "Which method converts JSON to an object?",
+    "options": ["JSON.stringify()", "JSON.parse()", "parseJSON()", "JSON.object()"],
+    "answer": "JSON.parse()",
+    "explanation": "JSON.parse() converts JSON string into a JS object."
+  },
+  {
+    "question": "Which event runs when a button is clicked?",
+    "options": ["onpress", "onhover", "onclick", "onsubmit"],
+    "answer": "onclick",
+    "explanation": "onclick triggers when the user clicks an element."
+  },
+  {
+    "question": "Which symbol is used for logical AND?",
+    "options": ["&", "&&", "and", "*"],
+    "answer": "&&",
+    "explanation": "&& is the logical AND operator."
+  },
+  {
+    "question": "Which operator is used for OR?",
+    "options": ["||", "|", "OR", "##"],
+    "answer": "||",
+    "explanation": "|| represents logical OR."
+  },
+  {
+    "question": "What is the output of typeof []?",
+    "options": ["array", "object", "list", "undefined"],
+    "answer": "object",
+    "explanation": "Arrays are special objects in JavaScript."
+  },
+  {
+    "question": "Which method adds an element to the end of an array?",
+    "options": ["push()", "add()", "insert()", "append()"],
+    "answer": "push()",
+    "explanation": "push() inserts items at the end."
+  },
+  {
+    "question": "Which method removes the last element of an array?",
+    "options": ["delete()", "slice()", "pop()", "cut()"],
+    "answer": "pop()",
+    "explanation": "pop() removes and returns the last element."
+  },
+  {
+    "question": "Which method is used to convert a number to a string?",
+    "options": ["toString()", "num()", "stringify()", "convert()"],
+    "answer": "toString()",
+    "explanation": "toString() converts values to string format."
+  },
+  {
+    "question": "Which keyword declares a constant variable?",
+    "options": ["let", "constant", "static", "const"],
+    "answer": "const",
+    "explanation": "const cannot be reassigned."
+  },
+  {
+    "question": "What is NaN in JavaScript?",
+    "options": ["Not a Number", "Negative Number", "New Array Node", "Null and Nothing"],
+    "answer": "Not a Number",
+    "explanation": "NaN indicates a value that is not a valid number."
+  },
+  {
+    "question": "Which function is used to show an alert box?",
+    "options": ["alert()", "show()", "message()", "popup()"],
+    "answer": "alert()",
+    "explanation": "alert() displays a pop-up message."
+  },
+  {
+    "question": "What is the correct way to write an IF statement?",
+    "options": ["if i = 5 then", "if (i == 5)", "if i == 5 {}", "when (i == 5)"],
+    "answer": "if (i == 5)",
+    "explanation": "JavaScript requires parentheses in IF conditions."
+  },
+  {
+    "question": "Which loop runs at least once?",
+    "options": ["for loop", "while loop", "do...while loop", "foreach loop"],
+    "answer": "do...while loop",
+    "explanation": "do...while executes first, checks condition later."
+  },
+  {
+    "question": "Which method removes the first array element?",
+    "options": ["pop()", "shift()", "splice()", "unshift()"],
+    "answer": "shift()",
+    "explanation": "shift() removes the first element."
+  },
+  {
+    "question": "Which symbol is used for string concatenation?",
+    "options": ["+", "&", "++", "concat"],
+    "answer": "+",
+    "explanation": "+ joins strings together."
+  }
+]

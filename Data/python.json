@@ -1,0 +1,277 @@
+[
+  {
+    "question": "What type of language is Python?",
+    "options": [
+      "Compiled",
+      "Interpreted",
+      "Assembly",
+      "Markup"
+    ],
+    "answer": "Interpreted",
+    "explanation": "Python code is executed line-by-line by an interpreter."
+  },
+  {
+    "question": "Which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "function",
+      "def",
+      "define"
+    ],
+    "answer": "def",
+    "explanation": "'def' is used to declare functions."
+  },
+  {
+    "question": "What is the correct file extension for Python files?",
+    "options": [
+      ".pt",
+      ".python",
+      ".py",
+      ".p"
+    ],
+    "answer": ".py",
+    "explanation": "All Python source files end with .py."
+  },
+  {
+    "question": "What is the output of: print(type([]))?",
+    "options": [
+      "&lt;class 'list'&gt;",
+      "&lt;class 'array'&gt;",
+      "&lt;class 'tuple'&gt;",
+      "&lt;class 'set'&gt;"
+    ],
+    "answer": "&lt;class 'list'&gt;",
+    "explanation": "[] represents a list."
+  },
+  {
+    "question": "Which data type is immutable?",
+    "options": [
+      "List",
+      "Dictionary",
+      "Tuple",
+      "Set"
+    ],
+    "answer": "Tuple",
+    "explanation": "Tuples cannot be modified after creation."
+  },
+  {
+    "question": "Which operator is used for exponentiation in Python?",
+    "options": [
+      "^",
+      "**",
+      "exp()",
+      "^^"
+    ],
+    "answer": "**",
+    "explanation": "** represents power (ex: 2 ** 3 = 8)."
+  },
+  {
+    "question": "What is the output of: len('Python')?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "6",
+    "explanation": "Python has 6 characters."
+  },
+  {
+    "question": "Which keyword is used to create a class in Python?",
+    "options": [
+      "class",
+      "struct",
+      "object",
+      "define"
+    ],
+    "answer": "class",
+    "explanation": "Classes are defined using the 'class' keyword."
+  },
+  {
+    "question": "What does the 'break' keyword do?",
+    "options": [
+      "Stops the loop",
+      "Skips one iteration",
+      "Exits the program",
+      "Restarts the loop"
+    ],
+    "answer": "Stops the loop",
+    "explanation": "break ends the loop completely."
+  },
+  {
+    "question": "What does the 'continue' keyword do?",
+    "options": [
+      "Stops the loop",
+      "Repeats the loop",
+      "Skips to next iteration",
+      "Exits the program"
+    ],
+    "answer": "Skips to next iteration",
+    "explanation": "continue jumps to the next iteration of the loop."
+  },
+  {
+    "question": "Which function is used to get input from the user?",
+    "options": [
+      "scan()",
+      "read()",
+      "input()",
+      "get()"
+    ],
+    "answer": "input()",
+    "explanation": "input() reads user input as a string."
+  },
+  {
+    "question": "What is the output of: bool(0)?",
+    "options": [
+      "True",
+      "False",
+      "0",
+      "None"
+    ],
+    "answer": "False",
+    "explanation": "0 is considered False in boolean context."
+  },
+  {
+    "question": "How do you start a comment in Python?",
+    "options": [
+      "//",
+      "<!--",
+      "#",
+      "/*"
+    ],
+    "answer": "#",
+    "explanation": "# starts a single-line comment."
+  },
+  {
+    "question": "Which method is used to add an item to a list?",
+    "options": [
+      "add()",
+      "push()",
+      "append()",
+      "insert()"
+    ],
+    "answer": "append()",
+    "explanation": "append() adds to the end of a list."
+  },
+  {
+    "question": "What is the output of: 10 // 3?",
+    "options": [
+      "3.33",
+      "3",
+      "4",
+      "Error"
+    ],
+    "answer": "3",
+    "explanation": "// is floor division."
+  },
+  {
+    "question": "Which keyword is used for exceptions?",
+    "options": [
+      "try–handle",
+      "catch",
+      "exception",
+      "try"
+    ],
+    "answer": "try",
+    "explanation": "try is used to wrap risky code in Python."
+  },
+  {
+    "question": "Which symbol is used to indent blocks in Python?",
+    "options": [
+      "{}",
+      "()",
+      "Indentation (spaces/tabs)",
+      "[]"
+    ],
+    "answer": "Indentation (spaces/tabs)",
+    "explanation": "Python uses indentation, not braces."
+  },
+  {
+    "question": "Which of these creates a dictionary?",
+    "options": [
+      "{}",
+      "[]",
+      "()",
+      "<>"
+    ],
+    "answer": "{}",
+    "explanation": "Dictionaries use curly braces like: {key: value}."
+  },
+  {
+    "question": "What is the output of: type(10.5)?",
+    "options": [
+      "int",
+      "float",
+      "double",
+      "number"
+    ],
+    "answer": "float",
+    "explanation": "Numbers with decimals are floats."
+  },
+  {
+    "question": "Which keyword is used inside functions to return a value?",
+    "options": [
+      "send",
+      "return",
+      "output",
+      "give"
+    ],
+    "answer": "return",
+    "explanation": "return sends results out of the function."
+  },
+  {
+    "question": "Which loop iterates over a sequence?",
+    "options": [
+      "for loop",
+      "while loop",
+      "repeat loop",
+      "foreach"
+    ],
+    "answer": "for loop",
+    "explanation": "Python for loops iterate directly through sequences."
+  },
+  {
+    "question": "What is the output of: 'A' * 3?",
+    "options": [
+      "AAA",
+      "A3",
+      "Error",
+      "AAA"
+    ],
+    "answer": "AAA",
+    "explanation": "Strings can be multiplied to repeat them."
+  },
+  {
+    "question": "Which of these is NOT a Python data type?",
+    "options": [
+      "tuple",
+      "class",
+      "set",
+      "list"
+    ],
+    "answer": "class",
+    "explanation": "class is a structure, not a datatype."
+  },
+  {
+    "question": "Which module is used for random numbers?",
+    "options": [
+      "random",
+      "math",
+      "numbers",
+      "generate"
+    ],
+    "answer": "random",
+    "explanation": "Python’s random module handles randomization."
+  },
+  {
+    "question": "What is the output of: type(range(5))?",
+    "options": [
+      "list",
+      "tuple",
+      "range",
+      "iterator"
+    ],
+    "answer": "range",
+    "explanation": "range() returns a range object."
+  }
+]
